@@ -94,3 +94,10 @@ header{
     background-color: brown;
     color: cornsilk;
 }
+.textReader{
+    border: 1px solid brown;
+    color: brown;
+    font-size: 30px;
+    max-width: 1450px;
+    margin: auto;
+}
