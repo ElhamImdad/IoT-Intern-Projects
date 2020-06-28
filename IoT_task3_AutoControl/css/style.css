@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-color: #DCDCDC;
+    
+}
+.button{
+    position: absolute;
+    color: white;
+    background-color: lightcoral;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.button:hover{
+    background-color: white;
+    color: lightcoral;
+}
+form{
+    font-size: 20px;
+    max-width: 460px;
+    margin: 20px auto;
+    padding: 20px;
+}
+input{
+    font-size: 20px;
+}
+.logo img {
+    float: left;
+    width: 160px;
+    height: auto;
+}
+.stop img {
+    width: 130px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main {
+    max-width: 1450px;
+    margin: auto;
+}
+
+.autoControlText{
+    color: lightcoral;
+    font-size: 30px;
+    max-width: 1450px;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+}
+.btn-group2 button {
+    background-color: lightcoral;
+    border: 1px solid rgba(133, 53, 53, 0.795); 
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: center; /* Float the buttons side by side */
+  }
+  
+  .btn-group2 button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group2:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group2 button:hover {
+    background-color: palevioletred;
+  }
